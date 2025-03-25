@@ -41,7 +41,7 @@ def results():
                                 break
                     name = re.sub(".txt", "", file)
                     if name == "Sample Assessment":
-                        page = int(page) + 2
+                        page = int(page) + 1
                     else:
                         page = int(page) + 1
                     pdf_path = f"static/Papers/{subject}/{module}/Unit {unit}/{name}.pdf"
