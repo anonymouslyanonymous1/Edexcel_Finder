@@ -16,3 +16,9 @@ Edexcel Finder is inspired by [CAIE Finder](https://caiefinder.com/)
 - I know the searching method is very memory-inefficient, it is essentially a brute force technique
 - I tried optimising the memory usage by trying out paralellism and threading, but it didn't help either + lack of expertise in it definitely played a role (there's no shame in owning up 😭)
 - After my AS Exams (June 2026 In Sha Allah), I'll study more about how searching text can be made efficient, especially researching techniques Google, etc use
+## Screenshots from Local Hosting
+![image](static/home.png)
+- Like this ⤴️ any _common_ term can be searched for and that would give a list of all questions containing that term
+
+![image](static/results.png)
+- Hovering upon the image gives more details. It also links to the main Question Paper and Mark Scheme file for convenience
