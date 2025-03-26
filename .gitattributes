@@ -1,16 +1,10 @@
-# Force GitHub to classify the repository as Python
 *.py linguist-language=Python
 
-# Mark PowerShell and Batchfile as vendored so they don't count
 *.ps1 linguist-vendored
 *.bat linguist-vendored
 *.cmd linguist-vendored
-
-# Keep HTML and CSS visible
-*.html linguist-detectable
-*.css linguist-detectable
-
-# Ignore other non-Python files
+*.html linguist-vendored
+*.css linguist-vendored
 *.md linguist-vendored
 *.json linguist-vendored
 *.yml linguist-vendored
